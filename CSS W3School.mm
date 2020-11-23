@@ -164,7 +164,7 @@
 <node TEXT="using ruler in one or more css file we can affect how document in browser to be display" ID="ID_363194368" CREATED="1606115874775" MODIFIED="1606115968705"/>
 </node>
 </node>
-<node TEXT="CSS Syntax" FOLDED="true" ID="ID_310655740" CREATED="1606115996031" MODIFIED="1606115996769">
+<node TEXT="CSS Syntax" ID="ID_310655740" CREATED="1606115996031" MODIFIED="1606115996769">
 <node TEXT="satu set css ruler terdiri dari selector dan declaration" ID="ID_1777855536" CREATED="1606116093876" MODIFIED="1606116132834">
 <node TEXT="selector berfungsi untuk memilih element yang akan megikuti rule" ID="ID_1379678355" CREATED="1606116145686" MODIFIED="1606116195058">
 <node TEXT="h1" ID="ID_990718684" CREATED="1606116395129" MODIFIED="1606116400580"/>
@@ -192,7 +192,108 @@
 </node>
 </node>
 </node>
-<node TEXT="CSS Selectors" ID="ID_822812176" CREATED="1606116610467" MODIFIED="1606116611144"/>
+<node TEXT="CSS Selectors" ID="ID_822812176" CREATED="1606116610467" MODIFIED="1606116611144">
+<node TEXT="CSS Selectors" ID="ID_1838218900" CREATED="1606116711400" MODIFIED="1606116712015">
+<node TEXT="CSS selectors are used to &quot;find&quot; (or select) the HTML elements you want to style" ID="ID_1292993197" CREATED="1606116729039" MODIFIED="1606116729603"/>
+<node TEXT="divide CSS selectors into five categories" ID="ID_377551204" CREATED="1606116742792" MODIFIED="1606116743172">
+<node TEXT="Simple selectors" ID="ID_805532667" CREATED="1606116762310" MODIFIED="1606116762682"/>
+<node TEXT="Combinator selectors" ID="ID_1843983067" CREATED="1606116770915" MODIFIED="1606116771282"/>
+<node TEXT="Pseudo-class selectors" ID="ID_1196146482" CREATED="1606116778244" MODIFIED="1606116778576"/>
+<node TEXT="Pseudo-elements selectors" ID="ID_1320279699" CREATED="1606116790930" MODIFIED="1606116791286"/>
+<node TEXT="Attribute selectors" ID="ID_859441245" CREATED="1606116798058" MODIFIED="1606116798424"/>
+</node>
+</node>
+<node TEXT="The CSS element Selector" ID="ID_143431000" CREATED="1606116810901" MODIFIED="1606116811695">
+<node TEXT="based on the element name" ID="ID_862779900" CREATED="1606116823288" MODIFIED="1606116823654"/>
+<node TEXT="Example" ID="ID_165844882" CREATED="1606116829826" MODIFIED="1606116830193">
+<node TEXT="p {&#xa;  text-align: center;&#xa;  color: red;&#xa;}" ID="ID_1975136286" CREATED="1606116835363" MODIFIED="1606116835759"/>
+</node>
+</node>
+<node TEXT="The CSS id Selector" ID="ID_1104405752" CREATED="1606116842231" MODIFIED="1606116842686">
+<node TEXT="based id attribute of html element" ID="ID_992656618" CREATED="1606116860876" MODIFIED="1606116889594"/>
+<node TEXT="using # in front of id" ID="ID_1813567401" CREATED="1606117054363" MODIFIED="1606117066368"/>
+<node TEXT="Example" ID="ID_836215420" CREATED="1606117051502" MODIFIED="1606117051968">
+<node TEXT="#para1 {&#xa;  text-align: center;&#xa;  color: red;&#xa;}" ID="ID_975260653" CREATED="1606117075436" MODIFIED="1606117075882"/>
+</node>
+</node>
+<node TEXT="The CSS class Selector" ID="ID_1455488899" CREATED="1606145012205" MODIFIED="1606145013097">
+<node TEXT="based on class of html element" ID="ID_1686656113" CREATED="1606145024853" MODIFIED="1606145037088"/>
+<node TEXT="using . (dot) in front of class" ID="ID_660774981" CREATED="1606145050310" MODIFIED="1606145062555"/>
+<node TEXT="Example" ID="ID_1597228958" CREATED="1606145070610" MODIFIED="1606145071997">
+<node TEXT=".center {&#xa;  text-align: center;&#xa;  color: red;&#xa;}" ID="ID_1417765280" CREATED="1606145082916" MODIFIED="1606145083547"/>
+</node>
+<node TEXT="specific element with class" ID="ID_1679842455" CREATED="1606145105537" MODIFIED="1606145121670">
+<node TEXT="Example" ID="ID_1810186370" CREATED="1606145130152" MODIFIED="1606145133497">
+<node TEXT="p.center {&#xa;  text-align: center;&#xa;  color: red;&#xa;}" ID="ID_1369662767" CREATED="1606145134343" MODIFIED="1606145135024"/>
+</node>
+</node>
+<node TEXT="html element can also have multiple class" ID="ID_1643130407" CREATED="1606145152055" MODIFIED="1606145163213">
+<node TEXT="Example" ID="ID_1336687794" CREATED="1606145171105" MODIFIED="1606145173331">
+<node TEXT="&lt;p class=&quot;center large&quot;&gt;This paragraph refers to two classes.&lt;/p&gt;" ID="ID_15808974" CREATED="1606145174176" MODIFIED="1606145174812"/>
+</node>
+</node>
+</node>
+<node TEXT="The CSS Universal Selector" ID="ID_1645526184" CREATED="1606145204068" MODIFIED="1606145204451">
+<node TEXT="using asterix to select all" ID="ID_303007729" CREATED="1606145212852" MODIFIED="1606145225509"/>
+<node TEXT="Example" ID="ID_935752028" CREATED="1606145239499" MODIFIED="1606145242010">
+<node TEXT="* {&#xa;  text-align: center;&#xa;  color: blue;&#xa;}" ID="ID_1915753767" CREATED="1606145243864" MODIFIED="1606145244388"/>
+</node>
+</node>
+<node TEXT="The CSS Grouping Selector" ID="ID_764458180" CREATED="1606145250766" MODIFIED="1606145251883">
+<node TEXT="using comma separated in selector to apply single declaration to thats all selector" ID="ID_1927103181" CREATED="1606145277696" MODIFIED="1606145349142"/>
+<node TEXT="Example" ID="ID_536650721" CREATED="1606145357011" MODIFIED="1606145359756">
+<node TEXT="h1, h2, p {&#xa;  text-align: center;&#xa;  color: red;&#xa;}" ID="ID_326924522" CREATED="1606145360541" MODIFIED="1606145361041"/>
+</node>
+</node>
+<node TEXT="All CSS Simple Selectors" ID="ID_498628952" CREATED="1606145377254" MODIFIED="1606145378165">
+<node TEXT=".class" ID="ID_1754139294" CREATED="1606145501455" MODIFIED="1606145502454"/>
+<node TEXT="#id" ID="ID_192929721" CREATED="1606145506086" MODIFIED="1606145511999"/>
+<node TEXT="*" ID="ID_1349290443" CREATED="1606145518043" MODIFIED="1606145518412"/>
+<node TEXT="element" ID="ID_1424109150" CREATED="1606145521946" MODIFIED="1606145522366"/>
+<node TEXT="element,element,.." ID="ID_936942239" CREATED="1606145527569" MODIFIED="1606145528012"/>
+<node TEXT="element.class" ID="ID_531129762" CREATED="1606145529714" MODIFIED="1606145536936"/>
+</node>
+</node>
+<node TEXT="How To Add CSS" ID="ID_1981032670" CREATED="1606145558627" MODIFIED="1606145559211">
+<node TEXT="Three Ways to Insert CSS" ID="ID_1848215966" CREATED="1606145588099" MODIFIED="1606145588708">
+<node TEXT="External CSS" ID="ID_1271785159" CREATED="1606145594270" MODIFIED="1606145595095"/>
+<node TEXT="Internal CSS" ID="ID_948262490" CREATED="1606145598741" MODIFIED="1606145599166"/>
+<node TEXT="Inline CSS" ID="ID_923517137" CREATED="1606145602578" MODIFIED="1606145602907"/>
+</node>
+<node TEXT="External CSS" ID="ID_1455955192" CREATED="1606145612805" MODIFIED="1606145613224">
+<node TEXT="External styles are defined within the &lt;link&gt; element, inside the &lt;head&gt;" ID="ID_996620616" CREATED="1606145629996" MODIFIED="1606145630463"/>
+<node TEXT="Example" ID="ID_1689915126" CREATED="1606145633977" MODIFIED="1606145634353">
+<node TEXT="&lt;!DOCTYPE html&gt;&#xa;&lt;html&gt;&#xa;&lt;head&gt;&#xa;&lt;link rel=&quot;stylesheet&quot; href=&quot;mystyle.css&quot;&gt;&#xa;&lt;/head&gt;&#xa;&lt;body&gt;&#xa;&#xa;&lt;h1&gt;This is a heading&lt;/h1&gt;&#xa;&lt;p&gt;This is a paragraph.&lt;/p&gt;&#xa;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;" ID="ID_725334864" CREATED="1606145639337" MODIFIED="1606145639711"/>
+</node>
+<node TEXT="mystyle.css" ID="ID_1698784817" CREATED="1606145657872" MODIFIED="1606145658264">
+<node TEXT="body {&#xa;  background-color: lightblue;&#xa;}&#xa;&#xa;h1 {&#xa;  color: navy;&#xa;  margin-left: 20px;&#xa;}" ID="ID_1197842193" CREATED="1606145670979" MODIFIED="1606145671559"/>
+</node>
+</node>
+<node TEXT="Internal CSS" ID="ID_1149108758" CREATED="1606145678174" MODIFIED="1606145678488">
+<node TEXT="style is defined inside the &lt;style&gt; element, inside the head" ID="ID_1829525299" CREATED="1606145693457" MODIFIED="1606145694179"/>
+<node TEXT="Example" ID="ID_1203171190" CREATED="1606145706999" MODIFIED="1606145712833">
+<node TEXT="&lt;!DOCTYPE html&gt;&#xa;&lt;html&gt;&#xa;&lt;head&gt;&#xa;&lt;style&gt;&#xa;body {&#xa;  background-color: linen;&#xa;}&#xa;&#xa;h1 {&#xa;  color: maroon;&#xa;  margin-left: 40px;&#xa;}&#xa;&lt;/style&gt;&#xa;&lt;/head&gt;&#xa;&lt;body&gt;&#xa;&#xa;&lt;h1&gt;This is a heading&lt;/h1&gt;&#xa;&lt;p&gt;This is a paragraph.&lt;/p&gt;&#xa;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;" ID="ID_1981857070" CREATED="1606145713686" MODIFIED="1606145714228"/>
+</node>
+</node>
+<node TEXT="Inline CSS" ID="ID_673730944" CREATED="1606145727205" MODIFIED="1606145727825">
+<node TEXT="styles are defined within the &quot;style&quot; attribute of the relevant element" ID="ID_195681585" CREATED="1606145743994" MODIFIED="1606145744485"/>
+<node TEXT="Example" ID="ID_1808787474" CREATED="1606145749798" MODIFIED="1606145752269">
+<node TEXT="&lt;!DOCTYPE html&gt;&#xa;&lt;html&gt;&#xa;&lt;body&gt;&#xa;&#xa;&lt;h1 style=&quot;color:blue;text-align:center;&quot;&gt;This is a heading&lt;/h1&gt;&#xa;&lt;p style=&quot;color:red;&quot;&gt;This is a paragraph.&lt;/p&gt;&#xa;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;" ID="ID_25369863" CREATED="1606145754029" MODIFIED="1606145754738"/>
+</node>
+</node>
+<node TEXT="Multiple Style Sheets" ID="ID_1105098703" CREATED="1606145782029" MODIFIED="1606145782413">
+<node TEXT="if selector same, apply last defined css" ID="ID_1639459453" CREATED="1606145879028" MODIFIED="1606145968315"/>
+<node TEXT="If the internal style is defined after external" ID="ID_941036180" CREATED="1606145824208" MODIFIED="1606145839594"/>
+<node TEXT=" if the internal style is defined before external" ID="ID_1554398635" CREATED="1606145830881" MODIFIED="1606145847388"/>
+</node>
+<node TEXT="Cascading Order" ID="ID_805805931" CREATED="1606145861764" MODIFIED="1606145862301">
+<node TEXT="priority of implementation style" ID="ID_1659971741" CREATED="1606145993150" MODIFIED="1606146008971">
+<node TEXT="1. Inline style" ID="ID_1650762317" CREATED="1606146011981" MODIFIED="1606146025088"/>
+<node TEXT="2. external and internal css" ID="ID_52730404" CREATED="1606146032270" MODIFIED="1606146043056"/>
+<node TEXT="3. browser default" ID="ID_1774919903" CREATED="1606146043436" MODIFIED="1606146052366"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
