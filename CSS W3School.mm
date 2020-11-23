@@ -347,7 +347,72 @@
 <node TEXT="HEX Value" ID="ID_1188126453" CREATED="1606147944063" MODIFIED="1606147947917"/>
 <node TEXT="HSL Value" ID="ID_1480591619" CREATED="1606147948110" MODIFIED="1606147952131"/>
 </node>
-<node TEXT="CSS Backgrounds" ID="ID_1907171074" CREATED="1606147953940" MODIFIED="1606147954635"/>
+<node TEXT="CSS Backgrounds" ID="ID_1907171074" CREATED="1606147953940" MODIFIED="1606148756654">
+<node TEXT="background effects for elements" ID="ID_1346192986" CREATED="1606147992323" MODIFIED="1606147993360">
+<node TEXT="background-color" ID="ID_891377380" CREATED="1606147999616" MODIFIED="1606148000338"/>
+<node TEXT="background-image" ID="ID_1780637171" CREATED="1606148004976" MODIFIED="1606148005325"/>
+<node TEXT="background-repeat" ID="ID_189003741" CREATED="1606148008274" MODIFIED="1606148008588"/>
+<node TEXT="background-attachment" ID="ID_1516429563" CREATED="1606148011629" MODIFIED="1606148011968"/>
+<node TEXT="background-position" ID="ID_1283164984" CREATED="1606148015812" MODIFIED="1606148016111"/>
+</node>
+<node TEXT="CSS background-color" ID="ID_591273075" CREATED="1606148022494" MODIFIED="1606148022957">
+<node TEXT="background color of element using css color" ID="ID_529033109" CREATED="1606148041352" MODIFIED="1606148059078"/>
+<node TEXT="Example" ID="ID_432054279" CREATED="1606148074327" MODIFIED="1606148076645">
+<node TEXT="body {&#xa;  background-color: lightblue;&#xa;}" ID="ID_935712943" CREATED="1606148077438" MODIFIED="1606148077898"/>
+</node>
+<node TEXT="Other Elements" ID="ID_264084257" CREATED="1606148089001" MODIFIED="1606148089480">
+<node TEXT="another element besides body" ID="ID_1596960799" CREATED="1606148099037" MODIFIED="1606148130727"/>
+<node TEXT="Example" ID="ID_1905481453" CREATED="1606148177127" MODIFIED="1606148178894">
+<node TEXT="h1 {&#xa;  background-color: green;&#xa;}&#xa;&#xa;div {&#xa;  background-color: lightblue;&#xa;}&#xa;&#xa;p {&#xa;  background-color: yellow;&#xa;}" ID="ID_466810814" CREATED="1606148179866" MODIFIED="1606148180283"/>
+</node>
+</node>
+<node TEXT="Opacity / Transparency" ID="ID_1287522648" CREATED="1606148193568" MODIFIED="1606148193948">
+<node TEXT="this is transparancy of element" ID="ID_374483242" CREATED="1606148207135" MODIFIED="1606148215113"/>
+<node TEXT="Example" ID="ID_1841294328" CREATED="1606148221694" MODIFIED="1606148223700">
+<node ID="ID_1131316941" CREATED="1606148224363" MODIFIED="1606148224363"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(165, 42, 42); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(165, 42, 42)" face="Consolas, courier new" size="15px">div</font></span><font color="rgb(165, 42, 42)" face="Consolas, courier new" size="15px"><span>&nbsp;</span></font><span class="cssdelimitercolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">{</font></span><span class="csspropertycolor" style="color: red; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="red" face="Consolas, courier new" size="15px"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/>&nbsp;&nbsp;background-color</font></span><span class="cssdelimitercolor" style="color: black"><font color="black" face="Consolas, courier new" size="15px">:</font></span><font color="black" face="Consolas, courier new" size="15px"><span>&nbsp;</span><span class="csspropertyvaluecolor" style="color: black">green</span><span class="cssdelimitercolor" style="color: black">;</span></font><span class="csspropertycolor" style="color: red; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="red" face="Consolas, courier new" size="15px"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/>&nbsp;&nbsp;opacity</font></span><span class="cssdelimitercolor" style="color: black"><font color="black" face="Consolas, courier new" size="15px">:</font></span><font color="black" face="Consolas, courier new" size="15px"><span>&nbsp;</span><span class="csspropertyvaluecolor" style="color: black">0.3</span><span class="cssdelimitercolor" style="color: black">;</span></font><span class="csspropertycolor" style="color: red; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="red" face="Consolas, courier new" size="15px"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font></span><span class="cssdelimitercolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">}</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Transparency using RGBA" ID="ID_1890259795" CREATED="1606148257251" MODIFIED="1606148258291">
+<node TEXT="only color be transparent not element" ID="ID_155142688" CREATED="1606148259928" MODIFIED="1606148269705"/>
+<node TEXT="Example" ID="ID_82997301" CREATED="1606148277915" MODIFIED="1606148279773">
+<node TEXT="div {&#xa;  background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */&#xa;}" ID="ID_1669639194" CREATED="1606148280497" MODIFIED="1606148280949"/>
+</node>
+</node>
+</node>
+<node TEXT="CSS background-image" ID="ID_1566785884" CREATED="1606148300131" MODIFIED="1606148300514">
+<node TEXT="By default, the image is repeated so it covers the entire element" ID="ID_1800546213" CREATED="1606148345404" MODIFIED="1606148345857"/>
+<node TEXT="Example" ID="ID_980358736" CREATED="1606148349886" MODIFIED="1606148351908">
+<node TEXT="body {&#xa;  background-image: url(&quot;paper.gif&quot;);&#xa;}" ID="ID_628773503" CREATED="1606148352539" MODIFIED="1606148352901"/>
+</node>
+</node>
+<node TEXT="CSS background-repeat" ID="ID_1420127131" CREATED="1606148459019" MODIFIED="1606148459454">
+<node TEXT="default background will repeat x and repeat y" ID="ID_810206838" CREATED="1606148600302" MODIFIED="1606148618395"/>
+<node TEXT="if repeat x the background will only one row" ID="ID_597815634" CREATED="1606148620221" MODIFIED="1606148658457">
+<node TEXT="Example" ID="ID_1587521572" CREATED="1606148726961" MODIFIED="1606148728733">
+<node TEXT="body {&#xa;  background-image: url(&quot;gradient_bg.png&quot;);&#xa;  background-repeat: repeat-x;&#xa;}" ID="ID_616641450" CREATED="1606148730069" MODIFIED="1606148730505"/>
+</node>
+</node>
+<node TEXT="if repeay y the background will only one column" ID="ID_295118292" CREATED="1606148638056" MODIFIED="1606148655172"/>
+<node TEXT="if no repeat the background will remain one image" ID="ID_1418513461" CREATED="1606148674113" MODIFIED="1606148715448">
+<node TEXT="Example" ID="ID_1420203657" CREATED="1606148740325" MODIFIED="1606148742880">
+<node TEXT="body {&#xa;  background-image: url(&quot;img_tree.png&quot;);&#xa;  background-repeat: no-repeat;&#xa;}" ID="ID_489492340" CREATED="1606148743848" MODIFIED="1606148744423"/>
+</node>
+</node>
+</node>
+<node TEXT="CSS background-position" ID="ID_896611528" CREATED="1606148751826" MODIFIED="1606148760346" HGAP_QUANTITY="16.249999932944775 pt" VSHIFT_QUANTITY="1.4999999552965178 pt"/>
+</node>
 </node>
 </node>
 </map>
