@@ -66,7 +66,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="CSS Tutorial" POSITION="right" ID="ID_1839395304" CREATED="1606113666780" MODIFIED="1606113667877">
 <edge COLOR="#ff0000"/>
-<node TEXT="CSS HOME" ID="ID_1945899480" CREATED="1606113680728" MODIFIED="1606113690691">
+<node TEXT="CSS HOME" FOLDED="true" ID="ID_1945899480" CREATED="1606113680728" MODIFIED="1606113690691">
 <node TEXT="CSS describes how HTML elements should be displayed" ID="ID_1809446193" CREATED="1606113719299" MODIFIED="1606113719745"/>
 <node TEXT="Examples in Each Chapter" ID="ID_147632967" CREATED="1606113727505" MODIFIED="1606113727900">
 <node TEXT="you can edit the CSS, and click on a button to view the result" ID="ID_617488877" CREATED="1606113747504" MODIFIED="1606113748062">
@@ -125,7 +125,7 @@
 <node TEXT="Get Your Certificate" ID="ID_249825723" CREATED="1606114061444" MODIFIED="1606114068229"/>
 </node>
 </node>
-<node TEXT="CSS Introduction" ID="ID_1100671174" CREATED="1606114123400" MODIFIED="1606114123727">
+<node TEXT="CSS Introduction" FOLDED="true" ID="ID_1100671174" CREATED="1606114123400" MODIFIED="1606114123727">
 <node TEXT="What is CSS?" ID="ID_552244390" CREATED="1606114129481" MODIFIED="1606114129834">
 <node TEXT="css affect html rendered using selector that can be cascade" ID="ID_381718772" CREATED="1606114393594" MODIFIED="1606114413022"/>
 <node TEXT="cascade mean the ruler of sheet must be hierarchy" ID="ID_1282635538" CREATED="1606114606043" MODIFIED="1606114703737"/>
@@ -164,9 +164,35 @@
 <node TEXT="using ruler in one or more css file we can affect how document in browser to be display" ID="ID_363194368" CREATED="1606115874775" MODIFIED="1606115968705"/>
 </node>
 </node>
-<node TEXT="CSS Syntax" FOLDED="true" ID="ID_332170394" CREATED="1606115983305" MODIFIED="1606115983719">
-<node TEXT="CSS Syntax" ID="ID_310655740" CREATED="1606115996031" MODIFIED="1606115996769"/>
+<node TEXT="CSS Syntax" FOLDED="true" ID="ID_310655740" CREATED="1606115996031" MODIFIED="1606115996769">
+<node TEXT="satu set css ruler terdiri dari selector dan declaration" ID="ID_1777855536" CREATED="1606116093876" MODIFIED="1606116132834">
+<node TEXT="selector berfungsi untuk memilih element yang akan megikuti rule" ID="ID_1379678355" CREATED="1606116145686" MODIFIED="1606116195058">
+<node TEXT="h1" ID="ID_990718684" CREATED="1606116395129" MODIFIED="1606116400580"/>
 </node>
+<node TEXT="decalation adalah design yang di apply pada element yang dimaksud" ID="ID_959912524" CREATED="1606116196911" MODIFIED="1606116242737">
+<node TEXT="declaration terdiri dari nama property, titik dua, dan value property" ID="ID_1729967483" CREATED="1606116252803" MODIFIED="1606116483561">
+<node TEXT="{color: blue}" ID="ID_445496936" CREATED="1606116408050" MODIFIED="1606116420462"/>
+</node>
+<node TEXT="declaration dihimpit kurung kurawal" ID="ID_779370414" CREATED="1606116328929" MODIFIED="1606116339549">
+<node TEXT="{size: 10px}" ID="ID_525711727" CREATED="1606116446278" MODIFIED="1606116451126"/>
+</node>
+<node TEXT="jika ada lebih dari satu deklaration maka di dalam kurung kurawal dipisah nama dan valu masing masing properti menggunakan petik koma ;" ID="ID_1119754521" CREATED="1606116339924" MODIFIED="1606116378762">
+<node TEXT="{color:blue;size:10px}" ID="ID_787678304" CREATED="1606116453134" MODIFIED="1606116468181"/>
+</node>
+</node>
+</node>
+<node TEXT="Example" ID="ID_360547749" CREATED="1606116509856" MODIFIED="1606116510272">
+<node TEXT="p {&#xa;  color: red;&#xa;  text-align: center;&#xa;}" ID="ID_1997532749" CREATED="1606116515286" MODIFIED="1606116515693"/>
+<node TEXT="Example Explained" ID="ID_1445931635" CREATED="1606116541594" MODIFIED="1606116542678">
+<node TEXT="p is selector" ID="ID_1351310032" CREATED="1606116548512" MODIFIED="1606116551946"/>
+<node TEXT="color is property" ID="ID_409763085" CREATED="1606116552221" MODIFIED="1606116566712"/>
+<node TEXT="red is value for color" ID="ID_731465623" CREATED="1606116566924" MODIFIED="1606116573852"/>
+<node TEXT="text-align is property" ID="ID_776958908" CREATED="1606116574258" MODIFIED="1606116585172"/>
+<node TEXT="center is value for text-align" ID="ID_295279007" CREATED="1606116585349" MODIFIED="1606116592984"/>
+</node>
+</node>
+</node>
+<node TEXT="CSS Selectors" ID="ID_822812176" CREATED="1606116610467" MODIFIED="1606116611144"/>
 </node>
 </node>
 </map>
