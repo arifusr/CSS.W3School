@@ -294,7 +294,21 @@
 </node>
 </node>
 </node>
-<node TEXT="CSS Comments" ID="ID_91696214" CREATED="1606146271534" MODIFIED="1606146272773"/>
+<node TEXT="CSS Comments" ID="ID_91696214" CREATED="1606146271534" MODIFIED="1606146272773">
+<node TEXT="CSS Comments" ID="ID_1975086672" CREATED="1606146289783" MODIFIED="1606146291030">
+<node TEXT="starts with /* and ends with */" ID="ID_1506145594" CREATED="1606146304976" MODIFIED="1606146305419"/>
+<node TEXT="Example" ID="ID_370721648" CREATED="1606146305935" MODIFIED="1606146308594">
+<node TEXT="/* This is a single-line comment */&#xa;p {&#xa;  color: red;&#xa;}" ID="ID_1759930896" CREATED="1606146313694" MODIFIED="1606146314091"/>
+</node>
+</node>
+<node TEXT="HTML and CSS Comments" ID="ID_448496480" CREATED="1606146329937" MODIFIED="1606146330338">
+<node TEXT="combination of HTML and CSS comments" ID="ID_681912637" CREATED="1606146349868" MODIFIED="1606146350260"/>
+<node TEXT="Example" ID="ID_1121664455" CREATED="1606146356510" MODIFIED="1606146360791">
+<node TEXT="&lt;!DOCTYPE html&gt;&#xa;&lt;html&gt;&#xa;&lt;head&gt;&#xa;&lt;style&gt;&#xa;p {&#xa;  color: red; /* Set text color to red */&#xa;}&#xa;&lt;/style&gt;&#xa;&lt;/head&gt;&#xa;&lt;body&gt;&#xa;&#xa;&lt;h2&gt;My Heading&lt;/h2&gt;&#xa;&#xa;&lt;!-- These paragraphs will be red --&gt;&#xa;&lt;p&gt;Hello World!&lt;/p&gt;&#xa;&lt;p&gt;This paragraph is styled with CSS.&lt;/p&gt;&#xa;&lt;p&gt;CSS comments are not shown in the output.&lt;/p&gt;&#xa;&#xa;&lt;/body&gt;&#xa;&lt;/html&gt;" ID="ID_125861425" CREATED="1606146363184" MODIFIED="1606146364039"/>
+</node>
+</node>
+</node>
+<node TEXT="CSS Colors" ID="ID_775086022" CREATED="1606146374082" MODIFIED="1606146374491"/>
 </node>
 </node>
 </map>
