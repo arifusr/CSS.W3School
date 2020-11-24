@@ -411,7 +411,27 @@
 </node>
 </node>
 </node>
-<node TEXT="CSS background-position" ID="ID_896611528" CREATED="1606148751826" MODIFIED="1606148760346" HGAP_QUANTITY="16.249999932944775 pt" VSHIFT_QUANTITY="1.4999999552965178 pt"/>
+<node TEXT="CSS background-position" ID="ID_896611528" CREATED="1606148751826" MODIFIED="1606148760346" HGAP_QUANTITY="16.249999932944775 pt" VSHIFT_QUANTITY="1.4999999552965178 pt">
+<node TEXT="where position of background initialy rendered" ID="ID_1480032703" CREATED="1606149208867" MODIFIED="1606149221184"/>
+</node>
+<node TEXT="CSS background-attachment" ID="ID_618947834" CREATED="1606149228655" MODIFIED="1606149229134">
+<node TEXT="will background stick or come along to element when scroll" ID="ID_6627883" CREATED="1606149243967" MODIFIED="1606149330852"/>
+<node TEXT="fixed" ID="ID_1095503660" CREATED="1606149339280" MODIFIED="1606149341614">
+<node TEXT="body {&#xa;  background-image: url(&quot;img_tree.png&quot;);&#xa;  background-repeat: no-repeat;&#xa;  background-position: right top;&#xa;  background-attachment: fixed;&#xa;}" ID="ID_1278939138" CREATED="1606149342881" MODIFIED="1606149343306"/>
+</node>
+<node TEXT="scroll" ID="ID_631589629" CREATED="1606149350352" MODIFIED="1606149352333">
+<node TEXT="body {&#xa;  background-image: url(&quot;img_tree.png&quot;);&#xa;  background-repeat: no-repeat;&#xa;  background-position: right top;&#xa;  background-attachment: scroll;&#xa;}" ID="ID_893405563" CREATED="1606149353309" MODIFIED="1606149353704"/>
+</node>
+</node>
+<node TEXT="CSS background - Shorthand property" ID="ID_995287934" CREATED="1606149367197" MODIFIED="1606149367624">
+<node TEXT="To shorten the code just use background with order parameter" ID="ID_1694882914" CREATED="1606149388872" MODIFIED="1606149428705">
+<node TEXT="color image repeat attachement scroll" ID="ID_228894292" CREATED="1606149421428" MODIFIED="1606149449122"/>
+</node>
+<node TEXT="Example" ID="ID_613257302" CREATED="1606149405173" MODIFIED="1606149408124">
+<node TEXT="body {&#xa;  background: #ffffff url(&quot;img_tree.png&quot;) no-repeat right top;&#xa;}" ID="ID_1604760820" CREATED="1606149409010" MODIFIED="1606149409397"/>
+</node>
+</node>
+<node TEXT="All CSS Background Properties" ID="ID_895365938" CREATED="1606149460200" MODIFIED="1606149460586"/>
 </node>
 </node>
 </node>
